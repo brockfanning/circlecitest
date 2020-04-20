@@ -1,4 +1,7 @@
 echo "Hello world"
-echo $TESTVAR
+if ["$TESTVAR" = "Hello World"]
+then
+  echo "Yes"
+fi
 echo "Hello world"
 
