@@ -1,7 +1,5 @@
 echo "Hello world"
-if ["$TESTVAR" = "Hello World"]
-then
-  echo "Yes"
-fi
+echo $MYNUM + 5
+echo 5 + 5
 echo "Hello world"
 
